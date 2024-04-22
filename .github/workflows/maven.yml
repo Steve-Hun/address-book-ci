@@ -13,6 +13,8 @@ on:
     branches: [ "integration" ]
   pull_request:
     branches: [ "integration" ]
+permissions:
+  contents: write
 
 jobs:
   build:
